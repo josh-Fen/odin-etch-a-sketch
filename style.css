@@ -7,12 +7,19 @@
 body {
     background-color: blueviolet;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
+button {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
 .container {
+    margin-top: 10px;
     background-color: pink;
     width: 640px;
     display: flex;
