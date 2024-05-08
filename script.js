@@ -20,7 +20,14 @@ function setUpBlocks() {
     const blocks = container.querySelectorAll('div');
     blocks.forEach((block) => {
         block.addEventListener('mouseover', () => {
-            block.classList.add('color-change');
+            let opacity = block.style.opacity
+            if (opacity) {
+                opacity = +opacity - 0.1;
+                block.style.opacity = String(opacity);
+                console.log(String(opacity));
+            } else {
+                block.style.opacity = '0.9';
+            }
         });
     });
 }

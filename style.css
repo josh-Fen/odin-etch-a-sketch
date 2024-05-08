@@ -20,7 +20,7 @@ button {
 
 .container {
     margin-top: 10px;
-    background-color: pink;
+    background-color: white;
     width: 640px;
     display: flex;
     flex-wrap: wrap;
@@ -30,8 +30,4 @@ button {
     height: 40px;
     width: 40px;
     background-color: black;
-}
-
-.color-change {
-    background-color: white;
 }
