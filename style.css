@@ -24,3 +24,7 @@ body {
     width: 40px;
     background-color: black;
 }
+
+.color-change {
+    background-color: white;
+}

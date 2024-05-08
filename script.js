@@ -8,3 +8,10 @@ for (let i = 0; i < 16; i++) {
     }
 }
 
+const blocks = container.querySelectorAll('div');
+
+blocks.forEach((block) => {
+    block.addEventListener('mouseover', () => {
+        block.classList.add('color-change');
+    });
+});
