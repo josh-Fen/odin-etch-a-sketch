@@ -33,9 +33,9 @@ function setUpBlocks() {
 }
 
 btn.addEventListener('click', () => {
-    let num = +prompt('Please enter how many square you would like per row (max 100)');
+    let num = +prompt('Please enter how many squares you would like per side (max 100)');
     while (num > 100) {
-        num = +prompt('Please enter how many square you would like per row (max 100)');
+        num = +prompt('Please enter how many squares you would like per side (max 100)');
     }
     draw(num);
 });
